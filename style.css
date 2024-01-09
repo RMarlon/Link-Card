@@ -25,6 +25,7 @@
 }
 
 body {
+  height: 100vh;
   background: var(--bg-url) no-repeat top center/cover;
 }
 
@@ -156,4 +157,15 @@ footer {
   padding: 24px 0;
   text-align: center;
   font-size: 14px;
+}
+
+/* media  */
+@media(min-width:700px) {
+  :root {
+    --bg-url: url(Assets/bg-desktop.jpg);
+  }
+
+  .light {
+    --bg-url: url(Assets/bg-desktop-light.jpg);
+  }
 }
